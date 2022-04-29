@@ -1,5 +1,5 @@
 # (©)Codexbotz
-# Recode By @Mafia_Tobatz
+# Recode By @putraicipiyey
 # Kalo clone Gak usah hapus 
 # gue tandain akun tele nya ngentod
 
