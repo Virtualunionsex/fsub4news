@@ -1,5 +1,5 @@
 # (©)Codexbotz
-# Recife By Zaen #Mafia_Tobatz
+# Recife By Putra Icipiyey
 # Kalo clone Gak usah hapus 
 # gue tandain akun tele nya ngentod
 
@@ -24,14 +24,14 @@ CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))
 OWNER_ID = int(os.environ.get("OWNER_ID", ""))
 
 # NAMA OWNER
-OWNER = os.environ.get("OWNER", "@Mafia_Tobatz")
+OWNER = os.environ.get("OWNER", "@putraicipiyey")
 
 # Database
 DB_URI = os.environ.get("DATABASE_URL", "")
 
 # Username CH & Group
-CHANNEL = os.environ.get("CHANNEL", "Tolak_Ange")
-GROUP = os.environ.get("GROUP", "Tolak_Ange")
+CHANNEL = os.environ.get("CHANNEL", "NAUNGANBEBEK")
+GROUP = os.environ.get("GROUP", "demusplace")
 
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
