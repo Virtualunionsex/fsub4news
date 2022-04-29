@@ -6,8 +6,8 @@
     "file",
     "sharing"
   ],
-  "repository": "https://github.com/Zaen67/File-Sharing-Bot",
-  "logo": "https://telegra.ph/file/c168ea48b97c702017ead.jpg",
+  "repository": "https://github.com/putraicipiyey/fsub-4 ",
+  "logo": "https://telegra.ph/file/c9458fe65e5aa9714b191.jpg",
   "env": {
     "TG_BOT_TOKEN": {
       "description": "Masukan Bot token, Dapatkan dari t.me/BotFather",
@@ -15,11 +15,11 @@
     },
     "OWNER": {
       "description": "Masukan Username Telegram untuk Owner BOT [ Jangan Pake @ ]",
-      "value": "TeleUdahRusak"
+      "value": "putraicipiyey"
     },
     "OWNER_ID": {
       "description": "Masukan User ID Telegram untuk Owner BOT",
-      "value": "1783401893"
+      "value": "5106625166"
     },
     "ADMINS": {
       "description": "Masukan User ID untuk mendapatkan hak Admin BOT [Hanya dapat membuat link]",
@@ -63,12 +63,12 @@
     },
     "CHANNEL":{
       "description": "Masukan Username Channel anda Untuk Wajib Subscribenya [ Jangan Pake @ ]",
-      "value": "ZaenSupport",
+      "value": "NAUNGANBEBEK",
       "required": false
     },
     "GROUP":{
       "description": "Masukan Username dari Group anda Untuk Wajib Subscribenya [ Jangan Pake @ ]",
-      "value": "ZaenSupport",
+      "value": "demusplace",
       "required": false
    } 
   },
