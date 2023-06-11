@@ -115,17 +115,17 @@ async def start_command(client: Client, message: Message):
                 pass
     else:
         buttons = [
-            [InlineKeyboardButton("🔅 ᴛᴇɴᴛᴀɴɢ sᴀʏᴀ 🔅", callback_data="about")],
+            [InlineKeyboardButton("🔅 Tentang saya 🔅", callback_data="about")],
             [
-                InlineKeyboardButton("•ᴄʜᴀɴɴᴇʟ•", url=client.invitelink),
-                InlineKeyboardButton("•ɢʀᴜᴘ•", url=client.invitelink2),
+                InlineKeyboardButton("•Join dulu•", url=client.invitelink),
+                InlineKeyboardButton("•Join dulu•", url=client.invitelink2),
             ],
             [
-                InlineKeyboardButton("•ᴄʜᴀɴɴᴇʟ•", url=client.invitelink3),
-                
+                InlineKeyboardButton("•Join dulu•", url=client.invitelink3),
+                InlineKeyboardButton("•Join dulu•", url=client.invitelink4),
             ],  
             [
-                InlineKeyboardButton("🔅 ᴛᴜᴛᴜᴘ 🔅", callback_data="close"),
+                InlineKeyboardButton("🔅 Tutup 🔅", callback_data="close"),
             ],
         ]
         await message.reply_text(
@@ -152,19 +152,19 @@ async def start_command(client: Client, message: Message):
 async def not_joined(client: Client, message: Message):
     buttons = [
         [
-            InlineKeyboardButton("•ᴄʜᴀɴɴᴇʟ•", url=client.invitelink), 
-            InlineKeyboardButton("•ɢʀᴜᴘ•", url=client.invitelink2),
+            InlineKeyboardButton("•Join•", url=client.invitelink), 
+            InlineKeyboardButton("•Join•", url=client.invitelink2),
         ],
         [
-            InlineKeyboardButton("•ᴄʜᴀɴɴᴇʟ•", url=client.invitelink3), 
-            
+            InlineKeyboardButton("•Join•", url=client.invitelink3), 
+            InlineKeyboardButton("•Join•", url=client.invitelink4),
         ],
     ]
     try:
         buttons.append(
             [
                 InlineKeyboardButton(
-                    text="🔅ᴄᴏʙᴀ ʟᴀɢɪ🔅",
+                    text="🔅 Ulang ganteng 🔅",
                     url=f"https://t.me/{client.username}?start={message.command[1]}",
                 )
             ]
